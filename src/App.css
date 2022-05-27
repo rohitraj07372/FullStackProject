@@ -1,3 +1,7 @@
+html,
+body {
+  background-color: #002741;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.indexBody {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #002741;
+}
+.Footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #05314e;
+
+  color: white;
+}
+
+.Navbar {
+  background-color: #05314e;
+  position: sticky;
+  top: 0;
+  left: auto;
+  right: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 0px 5px silver;
+}
+
+.Toolbar {
+  align-items: center;
+  min-height: 85px;
+
+  padding: 0px 10px;
+}
+
+.Title {
+  position: absolute;
+  left: 20px;
+  margin-top: 10px;
+}
+.addD {
+  margin: 10px;
+  border-radius: 6px;
+  height: 33px;
+  width: 160px;
 }
